@@ -1,3 +1,3 @@
 ## `README.md`
 
-[README.md](https://elyakelechekloopstudios.netlify.app)
+[Kelechek project](https://elyakelechekloopstudios.netlify.app)
