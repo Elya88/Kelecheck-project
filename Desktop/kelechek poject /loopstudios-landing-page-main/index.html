@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/scss/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+
+<body>
+  <section class="header-section">
+    <div class="content">
+      <header>
+        <a href="#" class="logo">
+          <img src="/images/logo.svg" alt="Loopstudios landing page">
+        </a>
+        <nav class="navigation">
+          <a href="#" class="close">
+            <img src="/images/icon-close.svg" aria-label="Close" alt="Close icon">
+          </a>
+          <a href="#" class="logo_nav"><img src="/images/logo.svg" alt="Loopstudios landing page"></a>
+          <a href="#">About</a>
+          <a href="#">Careers</a>
+          <a href="#">Events</a>
+          <a href="#">Products</a>
+          <a href="#">Support</a>
+        </nav>
+        <span class="burger">
+          <img src="/images/icon-hamburger.svg" alt="">
+        </span>
+      </header>
+
+      <h1>Immersive experiences that deliver</h1>
+    </div>
+  </section>
+
+  <section class="interactive content">
+    <div class="interactive__img">
+      <img src="/images/desktop/image-interactive.jpg" alt="interactive">
+    </div>
+    <div class="interactive__text">
+      <h2>The leader in interactive VR</h2>
+      <p>Founded in 2011, Loopstudios has been producing world-class virtual reality
+        projects for some of the best companies around the globe. Our award-winning
+        creations have transformed businesses through digital experiences that bind
+        to their brand.</p>
+    </div>
+  </section>
+
+  <section class="creations content">
+    <div class="creations__title">
+      <h3>Our creations</h3>
+      <button type="button" class="btn">See all</button>
+    </div>
+    <ul class="creations__content">
+      <li style="background: url('/images/desktop/image-deep-earth.jpg');">
+        <a href="#">Deep earth</a>
+      </li>
+      <li style="background: url('/images/desktop/image-night-arcade.jpg');">
+        <a href="#">Night arcade</a>
+      </li>
+      <li style="background: url('/images/desktop/image-soccer-team.jpg');">
+        <a href="#">Soccer team VR</a>
+      </li>
+      <li style="background: url('/images/desktop/image-grid.jpg');">
+        <a href="#">The grid</a>
+      </li>
+      <li style="background: url('/images/desktop/image-from-above.jpg');">
+        <a href="#">From up above VR</a>
+      </li>
+      <li style="background: url('/images/desktop/image-pocket-borealis.jpg');">
+        <a href="#">Pocket borealis</a>
+      </li>
+      <li style="background: url('/images/desktop/image-curiosity.jpg');">
+        <a href="#">The curiosity</a>
+      </li>
+      <li style="background: url('/images/desktop/image-fisheye.jpg');">
+        <a href="#">Make it fisheye</a>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="content">
+      <div class="navigation_bottom">
+        <a href="#" class="logo">
+          <img src="/images/logo.svg" aria-label="Loopstudios" alt="Loopstudios landing page">
+        </a>
+        <nav class="navigation">
+          <a href="#" aria-label="About">About</a>
+          <a href="#" aria-label="Careers">Careers</a>
+          <a href="#" aria-label="Events">Events</a>
+          <a href="#" aria-label="Products">Products</a>
+          <a href="#" aria-label="Support">Support</a>
+        </nav>
+      </div>
+      <div class="social">
+        <nav class="navigation">
+          <a href="#"><img src="/images/icon-facebook.svg" alt="facebook"></a>
+          <a href="#"><img src="/images/icon-twitter.svg" alt="twitter"></a>
+          <a href="#"><img src="/images/icon-pinterest.svg" alt="pinterest"></a>
+          <a href="#"><img src="/images/icon-instagram.svg" alt="instagram"></a>
+        </nav>
+        <div class="copyright">© 2021 Loopstudios. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.querySelector('.burger').addEventListener('click', () => {
+      document.querySelector('.header-section .navigation').classList.add('active');
+    });
+
+    document.querySelector('.close').addEventListener('click', () => {
+      document.querySelector('.header-section .navigation').classList.remove('active');
+    });
+  </script>
+
+
+
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Elnura Sarkobenova</a>.
+  </div>
+</body>
+</html>
