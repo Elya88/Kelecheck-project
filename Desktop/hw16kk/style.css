@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-family: outfit, sans-serif;
+}
+
+.products__title {
+    font: 3em sans-serif;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.products__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 2 */
+.products__filters {
+
+    text-align: center;
+}
+
+.btn {
+    margin: 4px 10px;
+    height: 35px;
+    color: rgb(14, 25, 43);
+    border: 3px solid rgb(193, 196, 197);
+    border-radius: 5px;
+    width: 120px;
+    font: 1em sans-serif;
+}
+
+
+.btn:hover {
+    background-color: rgb(193, 196, 197);
+}
+
+.hide {
+    display: none;
+}
